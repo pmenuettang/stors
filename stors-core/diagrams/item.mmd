@@ -1,0 +1,25 @@
+---
+title: Item
+---
+classDiagram
+    class ItemId {
+    + id() Uuid
+    }
+    class Item {
+    + id() ItemId
+    + name() RocStr~64~
+    }
+    class PriceId {
+    + id() Uuid
+    }
+    class Price {
+    + id() PriceId
+    + item() ItemId
+    + start_date() Date
+    + end_date() Date
+    + amount() Decimal
+    + vat() Decimal
+    }
+ItemId --* Item
+PriceId --* Price
+Item --> Price

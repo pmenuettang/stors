@@ -1,0 +1,15 @@
+[workspace]
+resolver = "2"
+members  = ["stors-core", "stors-http"]
+
+# [[bin]]
+# name = "stors"
+# path = "stors-http/src/main.rs"
+
+# Defines a size-optimized profile for the WASM bundle in release mode
+[profile.wasm-release]
+inherits      = "release"
+opt-level     = 'z'
+lto           = true
+codegen-units = 1
+panic         = "abort"

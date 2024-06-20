@@ -1,0 +1,12 @@
+[package]
+name    = "stors-core"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+aquamarine   = { version = "0.5.0", default-features = false }
+rust_decimal = { version = "1.35.0", default-features = false }
+time         = { version = "0.3.36", default-features = false, features = ["alloc", "formatting"] }
+uuid         = { version = "1.8.0", default-features = false, features = ["v4"] }
+
+rocstr = { version = "0.3.0", default-features = false, path = "../../../OuiCloud.Technology/rocstr" }
