@@ -88,5 +88,3 @@ lib-default-features = false
 #
 # Optional. Defaults to "release".
 lib-profile-release = "wasm-release"
-
-extra-targets = ["../README.md", "../stors-core/README.md"]
