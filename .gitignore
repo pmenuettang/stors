@@ -57,5 +57,11 @@ Cargo.lock
 # Built Visual Studio Code Extensions
 *.vsix
 
+# node e2e test tools and outputs
+node_modules/
+test-results/
+end2end/playwright-report/
+playwright/.cache/
+
 # Dev ENV vars
 .env
