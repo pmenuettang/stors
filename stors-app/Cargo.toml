@@ -3,7 +3,4 @@ name    = "stors-app"
 version = "0.1.0"
 edition = "2021"
 
-[package.metadata.cargo-sync-rdme]
-extra-targets = ["./docs.md,", "../README.md", "../stors-core/README.md", "../stors-http/README.md"]
-
 [dependencies]
