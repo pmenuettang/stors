@@ -2,6 +2,30 @@
 resolver = "2"
 members  = ["stors-app", "stors-core", "stors-http"]
 
+[package]
+name         = "stors"
+rust-version = "1.79.0"
+edition      = "2021"
+readme       = "README.md"
+repository   = "https://github.com/pmenuettang/stors"
+license      = "GPL-3.0-or-later"
+license-file = "LICENCE"
+keywords     = []
+categories   = []
+
+[package.metadata.cargo-sync-rdme.badge]
+style = "flat-square"
+
+[package.metadata.cargo-sync-rdme.badge.badges]
+license      = { link = "#license" }
+docs-rs      = true
+rust-version = true
+codecov      = true
+
+[[bin]]
+name = "stors"
+path = "stors-app/src/main.rs"
+
 # Defines a size-optimized profile for the WASM bundle in release mode
 [profile.wasm-release]
 inherits      = "release"
