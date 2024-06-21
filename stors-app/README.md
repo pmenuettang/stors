@@ -1,17 +1,3 @@
-<!-- cargo-sync-readme start -->
-
-# Stors
-
-An online store as a pet project.
-
-It implements
-- Hexagonal Architecture
-- Event sourcing
-- CQRS
-
-Sofware Stack
-- Leptos
-- Axum
-- Postgres
-
-<!-- cargo-sync-readme end -->
+<!-- cargo-sync-rdme title -->
+<!-- cargo-sync-rdme badge -->
+<!-- cargo-sync-rdme rustdoc -->
