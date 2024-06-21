@@ -18,7 +18,7 @@ It implements
 * Event sourcing
 * CQRS
 
-Sofware Stack
+Software Stack
 
 * Leptos
 * Axum
